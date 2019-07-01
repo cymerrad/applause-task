@@ -1,0 +1,9469 @@
+[
+  {
+    "model": "tester_matching.tester",
+    "pk": 2,
+    "fields": {
+      "testerId": "1",
+      "firstName": "Miguel",
+      "lastName": "Bautista",
+      "country": "US",
+      "lastLogin": "2013-08-04 23:57:38"
+    }
+  },
+  {
+    "model": "tester_matching.tester",
+    "pk": 5,
+    "fields": {
+      "testerId": "2",
+      "firstName": "Michael",
+      "lastName": "Lubavin",
+      "country": "US",
+      "lastLogin": "2013-07-12 13:27:18"
+    }
+  },
+  {
+    "model": "tester_matching.tester",
+    "pk": 8,
+    "fields": {
+      "testerId": "3",
+      "firstName": "Leonard",
+      "lastName": "Sutton",
+      "country": "GB",
+      "lastLogin": "2013-07-16 21:17:28"
+    }
+  },
+  {
+    "model": "tester_matching.tester",
+    "pk": 11,
+    "fields": {
+      "testerId": "4",
+      "firstName": "Taybin",
+      "lastName": "Rutkin",
+      "country": "US",
+      "lastLogin": "2013-01-01 10:57:38"
+    }
+  },
+  {
+    "model": "tester_matching.tester",
+    "pk": 14,
+    "fields": {
+      "testerId": "5",
+      "firstName": "Mingquan",
+      "lastName": "Zheng",
+      "country": "JP",
+      "lastLogin": "2013-08-04 22:07:38"
+    }
+  },
+  {
+    "model": "tester_matching.tester",
+    "pk": 17,
+    "fields": {
+      "testerId": "6",
+      "firstName": "Stanley",
+      "lastName": "Chen",
+      "country": "GB",
+      "lastLogin": "2013-08-04 21:57:38"
+    }
+  },
+  {
+    "model": "tester_matching.tester",
+    "pk": 20,
+    "fields": {
+      "testerId": "7",
+      "firstName": "Lucas",
+      "lastName": "Lowry",
+      "country": "JP",
+      "lastLogin": "2013-07-12 23:57:38"
+    }
+  },
+  {
+    "model": "tester_matching.tester",
+    "pk": 23,
+    "fields": {
+      "testerId": "8",
+      "firstName": "Sean",
+      "lastName": "Wellington",
+      "country": "JP",
+      "lastLogin": "2013-08-05 13:27:38"
+    }
+  },
+  {
+    "model": "tester_matching.tester",
+    "pk": 26,
+    "fields": {
+      "testerId": "9",
+      "firstName": "Darshini",
+      "lastName": "Thiagarajan",
+      "country": "GB",
+      "lastLogin": "2013-08-05 15:00:38"
+    }
+  },
+  {
+    "model": "tester_matching.device",
+    "pk": 2,
+    "fields": {
+      "deviceId": "1",
+      "description": "iPhone 4"
+    }
+  },
+  {
+    "model": "tester_matching.device",
+    "pk": 5,
+    "fields": {
+      "deviceId": "2",
+      "description": "iPhone 4S"
+    }
+  },
+  {
+    "model": "tester_matching.device",
+    "pk": 8,
+    "fields": {
+      "deviceId": "3",
+      "description": "iPhone 5"
+    }
+  },
+  {
+    "model": "tester_matching.device",
+    "pk": 11,
+    "fields": {
+      "deviceId": "4",
+      "description": "Galaxy S3"
+    }
+  },
+  {
+    "model": "tester_matching.device",
+    "pk": 14,
+    "fields": {
+      "deviceId": "5",
+      "description": "Galaxy S4"
+    }
+  },
+  {
+    "model": "tester_matching.device",
+    "pk": 17,
+    "fields": {
+      "deviceId": "6",
+      "description": "Nexus 4"
+    }
+  },
+  {
+    "model": "tester_matching.device",
+    "pk": 20,
+    "fields": {
+      "deviceId": "7",
+      "description": "Droid Razor"
+    }
+  },
+  {
+    "model": "tester_matching.device",
+    "pk": 23,
+    "fields": {
+      "deviceId": "8",
+      "description": "Droid DNA"
+    }
+  },
+  {
+    "model": "tester_matching.device",
+    "pk": 26,
+    "fields": {
+      "deviceId": "9",
+      "description": "HTC One"
+    }
+  },
+  {
+    "model": "tester_matching.device",
+    "pk": 29,
+    "fields": {
+      "deviceId": "10",
+      "description": "iPhone 3"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 2,
+    "fields": {
+      "testerId": "1",
+      "deviceId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 5,
+    "fields": {
+      "testerId": "1",
+      "deviceId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 8,
+    "fields": {
+      "testerId": "1",
+      "deviceId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 11,
+    "fields": {
+      "testerId": "1",
+      "deviceId": "10"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 14,
+    "fields": {
+      "testerId": "2",
+      "deviceId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 17,
+    "fields": {
+      "testerId": "2",
+      "deviceId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 20,
+    "fields": {
+      "testerId": "2",
+      "deviceId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 23,
+    "fields": {
+      "testerId": "2",
+      "deviceId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 26,
+    "fields": {
+      "testerId": "2",
+      "deviceId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 29,
+    "fields": {
+      "testerId": "2",
+      "deviceId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 32,
+    "fields": {
+      "testerId": "3",
+      "deviceId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 35,
+    "fields": {
+      "testerId": "3",
+      "deviceId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 38,
+    "fields": {
+      "testerId": "3",
+      "deviceId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 41,
+    "fields": {
+      "testerId": "3",
+      "deviceId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 44,
+    "fields": {
+      "testerId": "4",
+      "deviceId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 47,
+    "fields": {
+      "testerId": "4",
+      "deviceId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 50,
+    "fields": {
+      "testerId": "5",
+      "deviceId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 53,
+    "fields": {
+      "testerId": "5",
+      "deviceId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 56,
+    "fields": {
+      "testerId": "5",
+      "deviceId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 59,
+    "fields": {
+      "testerId": "5",
+      "deviceId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 62,
+    "fields": {
+      "testerId": "5",
+      "deviceId": "10"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 65,
+    "fields": {
+      "testerId": "6",
+      "deviceId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 68,
+    "fields": {
+      "testerId": "7",
+      "deviceId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 71,
+    "fields": {
+      "testerId": "7",
+      "deviceId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 74,
+    "fields": {
+      "testerId": "7",
+      "deviceId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 77,
+    "fields": {
+      "testerId": "7",
+      "deviceId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 80,
+    "fields": {
+      "testerId": "7",
+      "deviceId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 83,
+    "fields": {
+      "testerId": "8",
+      "deviceId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 86,
+    "fields": {
+      "testerId": "8",
+      "deviceId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 89,
+    "fields": {
+      "testerId": "8",
+      "deviceId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 92,
+    "fields": {
+      "testerId": "8",
+      "deviceId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 95,
+    "fields": {
+      "testerId": "8",
+      "deviceId": "10"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 98,
+    "fields": {
+      "testerId": "9",
+      "deviceId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 101,
+    "fields": {
+      "testerId": "9",
+      "deviceId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 104,
+    "fields": {
+      "testerId": "9",
+      "deviceId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.testerdevice",
+    "pk": 107,
+    "fields": {
+      "testerId": "9",
+      "deviceId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2,
+    "fields": {
+      "bugId": "1",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 5,
+    "fields": {
+      "bugId": "2",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 8,
+    "fields": {
+      "bugId": "3",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 11,
+    "fields": {
+      "bugId": "4",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 14,
+    "fields": {
+      "bugId": "5",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 17,
+    "fields": {
+      "bugId": "6",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 20,
+    "fields": {
+      "bugId": "7",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 23,
+    "fields": {
+      "bugId": "8",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 26,
+    "fields": {
+      "bugId": "9",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 29,
+    "fields": {
+      "bugId": "10",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 32,
+    "fields": {
+      "bugId": "11",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 35,
+    "fields": {
+      "bugId": "12",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 38,
+    "fields": {
+      "bugId": "13",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 41,
+    "fields": {
+      "bugId": "14",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 44,
+    "fields": {
+      "bugId": "15",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 47,
+    "fields": {
+      "bugId": "16",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 50,
+    "fields": {
+      "bugId": "17",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 53,
+    "fields": {
+      "bugId": "18",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 56,
+    "fields": {
+      "bugId": "19",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 59,
+    "fields": {
+      "bugId": "20",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 62,
+    "fields": {
+      "bugId": "21",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 65,
+    "fields": {
+      "bugId": "22",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 68,
+    "fields": {
+      "bugId": "23",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 71,
+    "fields": {
+      "bugId": "24",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 74,
+    "fields": {
+      "bugId": "25",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 77,
+    "fields": {
+      "bugId": "26",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 80,
+    "fields": {
+      "bugId": "27",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 83,
+    "fields": {
+      "bugId": "28",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 86,
+    "fields": {
+      "bugId": "29",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 89,
+    "fields": {
+      "bugId": "30",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 92,
+    "fields": {
+      "bugId": "31",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 95,
+    "fields": {
+      "bugId": "32",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 98,
+    "fields": {
+      "bugId": "33",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 101,
+    "fields": {
+      "bugId": "34",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 104,
+    "fields": {
+      "bugId": "35",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 107,
+    "fields": {
+      "bugId": "36",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 110,
+    "fields": {
+      "bugId": "37",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 113,
+    "fields": {
+      "bugId": "38",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 116,
+    "fields": {
+      "bugId": "39",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 119,
+    "fields": {
+      "bugId": "40",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 122,
+    "fields": {
+      "bugId": "41",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 125,
+    "fields": {
+      "bugId": "42",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 128,
+    "fields": {
+      "bugId": "43",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 131,
+    "fields": {
+      "bugId": "44",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 134,
+    "fields": {
+      "bugId": "45",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 137,
+    "fields": {
+      "bugId": "46",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 140,
+    "fields": {
+      "bugId": "47",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 143,
+    "fields": {
+      "bugId": "48",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 146,
+    "fields": {
+      "bugId": "49",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 149,
+    "fields": {
+      "bugId": "50",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 152,
+    "fields": {
+      "bugId": "51",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 155,
+    "fields": {
+      "bugId": "52",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 158,
+    "fields": {
+      "bugId": "53",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 161,
+    "fields": {
+      "bugId": "54",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 164,
+    "fields": {
+      "bugId": "55",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 167,
+    "fields": {
+      "bugId": "56",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 170,
+    "fields": {
+      "bugId": "57",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 173,
+    "fields": {
+      "bugId": "58",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 176,
+    "fields": {
+      "bugId": "59",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 179,
+    "fields": {
+      "bugId": "60",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 182,
+    "fields": {
+      "bugId": "61",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 185,
+    "fields": {
+      "bugId": "62",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 188,
+    "fields": {
+      "bugId": "63",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 191,
+    "fields": {
+      "bugId": "64",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 194,
+    "fields": {
+      "bugId": "65",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 197,
+    "fields": {
+      "bugId": "66",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 200,
+    "fields": {
+      "bugId": "67",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 203,
+    "fields": {
+      "bugId": "68",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 206,
+    "fields": {
+      "bugId": "69",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 209,
+    "fields": {
+      "bugId": "70",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 212,
+    "fields": {
+      "bugId": "71",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 215,
+    "fields": {
+      "bugId": "72",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 218,
+    "fields": {
+      "bugId": "73",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 221,
+    "fields": {
+      "bugId": "74",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 224,
+    "fields": {
+      "bugId": "75",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 227,
+    "fields": {
+      "bugId": "76",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 230,
+    "fields": {
+      "bugId": "77",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 233,
+    "fields": {
+      "bugId": "78",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 236,
+    "fields": {
+      "bugId": "79",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 239,
+    "fields": {
+      "bugId": "80",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 242,
+    "fields": {
+      "bugId": "81",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 245,
+    "fields": {
+      "bugId": "82",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 248,
+    "fields": {
+      "bugId": "83",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 251,
+    "fields": {
+      "bugId": "84",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 254,
+    "fields": {
+      "bugId": "85",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 257,
+    "fields": {
+      "bugId": "86",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 260,
+    "fields": {
+      "bugId": "87",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 263,
+    "fields": {
+      "bugId": "88",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 266,
+    "fields": {
+      "bugId": "89",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 269,
+    "fields": {
+      "bugId": "90",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 272,
+    "fields": {
+      "bugId": "91",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 275,
+    "fields": {
+      "bugId": "92",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 278,
+    "fields": {
+      "bugId": "93",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 281,
+    "fields": {
+      "bugId": "94",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 284,
+    "fields": {
+      "bugId": "95",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 287,
+    "fields": {
+      "bugId": "96",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 290,
+    "fields": {
+      "bugId": "97",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 293,
+    "fields": {
+      "bugId": "98",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 296,
+    "fields": {
+      "bugId": "99",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 299,
+    "fields": {
+      "bugId": "100",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 302,
+    "fields": {
+      "bugId": "101",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 305,
+    "fields": {
+      "bugId": "102",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 308,
+    "fields": {
+      "bugId": "103",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 311,
+    "fields": {
+      "bugId": "104",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 314,
+    "fields": {
+      "bugId": "105",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 317,
+    "fields": {
+      "bugId": "106",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 320,
+    "fields": {
+      "bugId": "107",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 323,
+    "fields": {
+      "bugId": "108",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 326,
+    "fields": {
+      "bugId": "109",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 329,
+    "fields": {
+      "bugId": "110",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 332,
+    "fields": {
+      "bugId": "111",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 335,
+    "fields": {
+      "bugId": "112",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 338,
+    "fields": {
+      "bugId": "113",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 341,
+    "fields": {
+      "bugId": "114",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 344,
+    "fields": {
+      "bugId": "115",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 347,
+    "fields": {
+      "bugId": "116",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 350,
+    "fields": {
+      "bugId": "117",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 353,
+    "fields": {
+      "bugId": "118",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 356,
+    "fields": {
+      "bugId": "119",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 359,
+    "fields": {
+      "bugId": "120",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 362,
+    "fields": {
+      "bugId": "121",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 365,
+    "fields": {
+      "bugId": "122",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 368,
+    "fields": {
+      "bugId": "123",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 371,
+    "fields": {
+      "bugId": "124",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 374,
+    "fields": {
+      "bugId": "125",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 377,
+    "fields": {
+      "bugId": "126",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 380,
+    "fields": {
+      "bugId": "127",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 383,
+    "fields": {
+      "bugId": "128",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 386,
+    "fields": {
+      "bugId": "129",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 389,
+    "fields": {
+      "bugId": "130",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 392,
+    "fields": {
+      "bugId": "131",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 395,
+    "fields": {
+      "bugId": "132",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 398,
+    "fields": {
+      "bugId": "133",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 401,
+    "fields": {
+      "bugId": "134",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 404,
+    "fields": {
+      "bugId": "135",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 407,
+    "fields": {
+      "bugId": "136",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 410,
+    "fields": {
+      "bugId": "137",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 413,
+    "fields": {
+      "bugId": "138",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 416,
+    "fields": {
+      "bugId": "139",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 419,
+    "fields": {
+      "bugId": "140",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 422,
+    "fields": {
+      "bugId": "141",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 425,
+    "fields": {
+      "bugId": "142",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 428,
+    "fields": {
+      "bugId": "143",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 431,
+    "fields": {
+      "bugId": "144",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 434,
+    "fields": {
+      "bugId": "145",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 437,
+    "fields": {
+      "bugId": "146",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 440,
+    "fields": {
+      "bugId": "147",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 443,
+    "fields": {
+      "bugId": "148",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 446,
+    "fields": {
+      "bugId": "149",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 449,
+    "fields": {
+      "bugId": "150",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 452,
+    "fields": {
+      "bugId": "151",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 455,
+    "fields": {
+      "bugId": "152",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 458,
+    "fields": {
+      "bugId": "153",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 461,
+    "fields": {
+      "bugId": "154",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 464,
+    "fields": {
+      "bugId": "155",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 467,
+    "fields": {
+      "bugId": "156",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 470,
+    "fields": {
+      "bugId": "157",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 473,
+    "fields": {
+      "bugId": "158",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 476,
+    "fields": {
+      "bugId": "159",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 479,
+    "fields": {
+      "bugId": "160",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 482,
+    "fields": {
+      "bugId": "161",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 485,
+    "fields": {
+      "bugId": "162",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 488,
+    "fields": {
+      "bugId": "163",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 491,
+    "fields": {
+      "bugId": "164",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 494,
+    "fields": {
+      "bugId": "165",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 497,
+    "fields": {
+      "bugId": "166",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 500,
+    "fields": {
+      "bugId": "167",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 503,
+    "fields": {
+      "bugId": "168",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 506,
+    "fields": {
+      "bugId": "169",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 509,
+    "fields": {
+      "bugId": "170",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 512,
+    "fields": {
+      "bugId": "171",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 515,
+    "fields": {
+      "bugId": "172",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 518,
+    "fields": {
+      "bugId": "173",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 521,
+    "fields": {
+      "bugId": "174",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 524,
+    "fields": {
+      "bugId": "175",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 527,
+    "fields": {
+      "bugId": "176",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 530,
+    "fields": {
+      "bugId": "177",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 533,
+    "fields": {
+      "bugId": "178",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 536,
+    "fields": {
+      "bugId": "179",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 539,
+    "fields": {
+      "bugId": "180",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 542,
+    "fields": {
+      "bugId": "181",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 545,
+    "fields": {
+      "bugId": "182",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 548,
+    "fields": {
+      "bugId": "183",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 551,
+    "fields": {
+      "bugId": "184",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 554,
+    "fields": {
+      "bugId": "185",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 557,
+    "fields": {
+      "bugId": "186",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 560,
+    "fields": {
+      "bugId": "187",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 563,
+    "fields": {
+      "bugId": "188",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 566,
+    "fields": {
+      "bugId": "189",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 569,
+    "fields": {
+      "bugId": "190",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 572,
+    "fields": {
+      "bugId": "191",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 575,
+    "fields": {
+      "bugId": "192",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 578,
+    "fields": {
+      "bugId": "193",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 581,
+    "fields": {
+      "bugId": "194",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 584,
+    "fields": {
+      "bugId": "195",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 587,
+    "fields": {
+      "bugId": "196",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 590,
+    "fields": {
+      "bugId": "197",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 593,
+    "fields": {
+      "bugId": "198",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 596,
+    "fields": {
+      "bugId": "199",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 599,
+    "fields": {
+      "bugId": "200",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 602,
+    "fields": {
+      "bugId": "201",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 605,
+    "fields": {
+      "bugId": "202",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 608,
+    "fields": {
+      "bugId": "203",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 611,
+    "fields": {
+      "bugId": "204",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 614,
+    "fields": {
+      "bugId": "205",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 617,
+    "fields": {
+      "bugId": "206",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 620,
+    "fields": {
+      "bugId": "207",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 623,
+    "fields": {
+      "bugId": "208",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 626,
+    "fields": {
+      "bugId": "209",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 629,
+    "fields": {
+      "bugId": "210",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 632,
+    "fields": {
+      "bugId": "211",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 635,
+    "fields": {
+      "bugId": "212",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 638,
+    "fields": {
+      "bugId": "213",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 641,
+    "fields": {
+      "bugId": "214",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 644,
+    "fields": {
+      "bugId": "215",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 647,
+    "fields": {
+      "bugId": "216",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 650,
+    "fields": {
+      "bugId": "217",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 653,
+    "fields": {
+      "bugId": "218",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 656,
+    "fields": {
+      "bugId": "219",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 659,
+    "fields": {
+      "bugId": "220",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 662,
+    "fields": {
+      "bugId": "221",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 665,
+    "fields": {
+      "bugId": "222",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 668,
+    "fields": {
+      "bugId": "223",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 671,
+    "fields": {
+      "bugId": "224",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 674,
+    "fields": {
+      "bugId": "225",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 677,
+    "fields": {
+      "bugId": "226",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 680,
+    "fields": {
+      "bugId": "227",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 683,
+    "fields": {
+      "bugId": "228",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 686,
+    "fields": {
+      "bugId": "229",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 689,
+    "fields": {
+      "bugId": "230",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 692,
+    "fields": {
+      "bugId": "231",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 695,
+    "fields": {
+      "bugId": "232",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 698,
+    "fields": {
+      "bugId": "233",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 701,
+    "fields": {
+      "bugId": "234",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 704,
+    "fields": {
+      "bugId": "235",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 707,
+    "fields": {
+      "bugId": "236",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 710,
+    "fields": {
+      "bugId": "237",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 713,
+    "fields": {
+      "bugId": "238",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 716,
+    "fields": {
+      "bugId": "239",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 719,
+    "fields": {
+      "bugId": "240",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 722,
+    "fields": {
+      "bugId": "241",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 725,
+    "fields": {
+      "bugId": "242",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 728,
+    "fields": {
+      "bugId": "243",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 731,
+    "fields": {
+      "bugId": "244",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 734,
+    "fields": {
+      "bugId": "245",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 737,
+    "fields": {
+      "bugId": "246",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 740,
+    "fields": {
+      "bugId": "247",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 743,
+    "fields": {
+      "bugId": "248",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 746,
+    "fields": {
+      "bugId": "249",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 749,
+    "fields": {
+      "bugId": "250",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 752,
+    "fields": {
+      "bugId": "251",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 755,
+    "fields": {
+      "bugId": "252",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 758,
+    "fields": {
+      "bugId": "253",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 761,
+    "fields": {
+      "bugId": "254",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 764,
+    "fields": {
+      "bugId": "255",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 767,
+    "fields": {
+      "bugId": "256",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 770,
+    "fields": {
+      "bugId": "257",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 773,
+    "fields": {
+      "bugId": "258",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 776,
+    "fields": {
+      "bugId": "259",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 779,
+    "fields": {
+      "bugId": "260",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 782,
+    "fields": {
+      "bugId": "261",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 785,
+    "fields": {
+      "bugId": "262",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 788,
+    "fields": {
+      "bugId": "263",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 791,
+    "fields": {
+      "bugId": "264",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 794,
+    "fields": {
+      "bugId": "265",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 797,
+    "fields": {
+      "bugId": "266",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 800,
+    "fields": {
+      "bugId": "267",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 803,
+    "fields": {
+      "bugId": "268",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 806,
+    "fields": {
+      "bugId": "269",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 809,
+    "fields": {
+      "bugId": "270",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 812,
+    "fields": {
+      "bugId": "271",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 815,
+    "fields": {
+      "bugId": "272",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 818,
+    "fields": {
+      "bugId": "273",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 821,
+    "fields": {
+      "bugId": "274",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 824,
+    "fields": {
+      "bugId": "275",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 827,
+    "fields": {
+      "bugId": "276",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 830,
+    "fields": {
+      "bugId": "277",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 833,
+    "fields": {
+      "bugId": "278",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 836,
+    "fields": {
+      "bugId": "279",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 839,
+    "fields": {
+      "bugId": "280",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 842,
+    "fields": {
+      "bugId": "281",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 845,
+    "fields": {
+      "bugId": "282",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 848,
+    "fields": {
+      "bugId": "283",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 851,
+    "fields": {
+      "bugId": "284",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 854,
+    "fields": {
+      "bugId": "285",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 857,
+    "fields": {
+      "bugId": "286",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 860,
+    "fields": {
+      "bugId": "287",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 863,
+    "fields": {
+      "bugId": "288",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 866,
+    "fields": {
+      "bugId": "289",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 869,
+    "fields": {
+      "bugId": "290",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 872,
+    "fields": {
+      "bugId": "291",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 875,
+    "fields": {
+      "bugId": "292",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 878,
+    "fields": {
+      "bugId": "293",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 881,
+    "fields": {
+      "bugId": "294",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 884,
+    "fields": {
+      "bugId": "295",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 887,
+    "fields": {
+      "bugId": "296",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 890,
+    "fields": {
+      "bugId": "297",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 893,
+    "fields": {
+      "bugId": "298",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 896,
+    "fields": {
+      "bugId": "299",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 899,
+    "fields": {
+      "bugId": "300",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 902,
+    "fields": {
+      "bugId": "301",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 905,
+    "fields": {
+      "bugId": "302",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 908,
+    "fields": {
+      "bugId": "303",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 911,
+    "fields": {
+      "bugId": "304",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 914,
+    "fields": {
+      "bugId": "305",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 917,
+    "fields": {
+      "bugId": "306",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 920,
+    "fields": {
+      "bugId": "307",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 923,
+    "fields": {
+      "bugId": "308",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 926,
+    "fields": {
+      "bugId": "309",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 929,
+    "fields": {
+      "bugId": "310",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 932,
+    "fields": {
+      "bugId": "311",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 935,
+    "fields": {
+      "bugId": "312",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 938,
+    "fields": {
+      "bugId": "313",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 941,
+    "fields": {
+      "bugId": "314",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 944,
+    "fields": {
+      "bugId": "315",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 947,
+    "fields": {
+      "bugId": "316",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 950,
+    "fields": {
+      "bugId": "317",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 953,
+    "fields": {
+      "bugId": "318",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 956,
+    "fields": {
+      "bugId": "319",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 959,
+    "fields": {
+      "bugId": "320",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 962,
+    "fields": {
+      "bugId": "321",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 965,
+    "fields": {
+      "bugId": "322",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 968,
+    "fields": {
+      "bugId": "323",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 971,
+    "fields": {
+      "bugId": "324",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 974,
+    "fields": {
+      "bugId": "325",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 977,
+    "fields": {
+      "bugId": "326",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 980,
+    "fields": {
+      "bugId": "327",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 983,
+    "fields": {
+      "bugId": "328",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 986,
+    "fields": {
+      "bugId": "329",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 989,
+    "fields": {
+      "bugId": "330",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 992,
+    "fields": {
+      "bugId": "331",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 995,
+    "fields": {
+      "bugId": "332",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 998,
+    "fields": {
+      "bugId": "333",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1001,
+    "fields": {
+      "bugId": "334",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1004,
+    "fields": {
+      "bugId": "335",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1007,
+    "fields": {
+      "bugId": "336",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1010,
+    "fields": {
+      "bugId": "337",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1013,
+    "fields": {
+      "bugId": "338",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1016,
+    "fields": {
+      "bugId": "339",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1019,
+    "fields": {
+      "bugId": "340",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1022,
+    "fields": {
+      "bugId": "341",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1025,
+    "fields": {
+      "bugId": "342",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1028,
+    "fields": {
+      "bugId": "343",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1031,
+    "fields": {
+      "bugId": "344",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1034,
+    "fields": {
+      "bugId": "345",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1037,
+    "fields": {
+      "bugId": "346",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1040,
+    "fields": {
+      "bugId": "347",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1043,
+    "fields": {
+      "bugId": "348",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1046,
+    "fields": {
+      "bugId": "349",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1049,
+    "fields": {
+      "bugId": "350",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1052,
+    "fields": {
+      "bugId": "351",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1055,
+    "fields": {
+      "bugId": "352",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1058,
+    "fields": {
+      "bugId": "353",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1061,
+    "fields": {
+      "bugId": "354",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1064,
+    "fields": {
+      "bugId": "355",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1067,
+    "fields": {
+      "bugId": "356",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1070,
+    "fields": {
+      "bugId": "357",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1073,
+    "fields": {
+      "bugId": "358",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1076,
+    "fields": {
+      "bugId": "359",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1079,
+    "fields": {
+      "bugId": "360",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1082,
+    "fields": {
+      "bugId": "361",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1085,
+    "fields": {
+      "bugId": "362",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1088,
+    "fields": {
+      "bugId": "363",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1091,
+    "fields": {
+      "bugId": "364",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1094,
+    "fields": {
+      "bugId": "365",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1097,
+    "fields": {
+      "bugId": "366",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1100,
+    "fields": {
+      "bugId": "367",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1103,
+    "fields": {
+      "bugId": "368",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1106,
+    "fields": {
+      "bugId": "369",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1109,
+    "fields": {
+      "bugId": "370",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1112,
+    "fields": {
+      "bugId": "371",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1115,
+    "fields": {
+      "bugId": "372",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1118,
+    "fields": {
+      "bugId": "373",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1121,
+    "fields": {
+      "bugId": "374",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1124,
+    "fields": {
+      "bugId": "375",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1127,
+    "fields": {
+      "bugId": "376",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1130,
+    "fields": {
+      "bugId": "377",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1133,
+    "fields": {
+      "bugId": "378",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1136,
+    "fields": {
+      "bugId": "379",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1139,
+    "fields": {
+      "bugId": "380",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1142,
+    "fields": {
+      "bugId": "381",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1145,
+    "fields": {
+      "bugId": "382",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1148,
+    "fields": {
+      "bugId": "383",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1151,
+    "fields": {
+      "bugId": "384",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1154,
+    "fields": {
+      "bugId": "385",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1157,
+    "fields": {
+      "bugId": "386",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1160,
+    "fields": {
+      "bugId": "387",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1163,
+    "fields": {
+      "bugId": "388",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1166,
+    "fields": {
+      "bugId": "389",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1169,
+    "fields": {
+      "bugId": "390",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1172,
+    "fields": {
+      "bugId": "391",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1175,
+    "fields": {
+      "bugId": "392",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1178,
+    "fields": {
+      "bugId": "393",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1181,
+    "fields": {
+      "bugId": "394",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1184,
+    "fields": {
+      "bugId": "395",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1187,
+    "fields": {
+      "bugId": "396",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1190,
+    "fields": {
+      "bugId": "397",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1193,
+    "fields": {
+      "bugId": "398",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1196,
+    "fields": {
+      "bugId": "399",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1199,
+    "fields": {
+      "bugId": "400",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1202,
+    "fields": {
+      "bugId": "401",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1205,
+    "fields": {
+      "bugId": "402",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1208,
+    "fields": {
+      "bugId": "403",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1211,
+    "fields": {
+      "bugId": "404",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1214,
+    "fields": {
+      "bugId": "405",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1217,
+    "fields": {
+      "bugId": "406",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1220,
+    "fields": {
+      "bugId": "407",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1223,
+    "fields": {
+      "bugId": "408",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1226,
+    "fields": {
+      "bugId": "409",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1229,
+    "fields": {
+      "bugId": "410",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1232,
+    "fields": {
+      "bugId": "411",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1235,
+    "fields": {
+      "bugId": "412",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1238,
+    "fields": {
+      "bugId": "413",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1241,
+    "fields": {
+      "bugId": "414",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1244,
+    "fields": {
+      "bugId": "415",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1247,
+    "fields": {
+      "bugId": "416",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1250,
+    "fields": {
+      "bugId": "417",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1253,
+    "fields": {
+      "bugId": "418",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1256,
+    "fields": {
+      "bugId": "419",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1259,
+    "fields": {
+      "bugId": "420",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1262,
+    "fields": {
+      "bugId": "421",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1265,
+    "fields": {
+      "bugId": "422",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1268,
+    "fields": {
+      "bugId": "423",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1271,
+    "fields": {
+      "bugId": "424",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1274,
+    "fields": {
+      "bugId": "425",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1277,
+    "fields": {
+      "bugId": "426",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1280,
+    "fields": {
+      "bugId": "427",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1283,
+    "fields": {
+      "bugId": "428",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1286,
+    "fields": {
+      "bugId": "429",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1289,
+    "fields": {
+      "bugId": "430",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1292,
+    "fields": {
+      "bugId": "431",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1295,
+    "fields": {
+      "bugId": "432",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1298,
+    "fields": {
+      "bugId": "433",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1301,
+    "fields": {
+      "bugId": "434",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1304,
+    "fields": {
+      "bugId": "435",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1307,
+    "fields": {
+      "bugId": "436",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1310,
+    "fields": {
+      "bugId": "437",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1313,
+    "fields": {
+      "bugId": "438",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1316,
+    "fields": {
+      "bugId": "439",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1319,
+    "fields": {
+      "bugId": "440",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1322,
+    "fields": {
+      "bugId": "441",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1325,
+    "fields": {
+      "bugId": "442",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1328,
+    "fields": {
+      "bugId": "443",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1331,
+    "fields": {
+      "bugId": "444",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1334,
+    "fields": {
+      "bugId": "445",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1337,
+    "fields": {
+      "bugId": "446",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1340,
+    "fields": {
+      "bugId": "447",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1343,
+    "fields": {
+      "bugId": "448",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1346,
+    "fields": {
+      "bugId": "449",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1349,
+    "fields": {
+      "bugId": "450",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1352,
+    "fields": {
+      "bugId": "451",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1355,
+    "fields": {
+      "bugId": "452",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1358,
+    "fields": {
+      "bugId": "453",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1361,
+    "fields": {
+      "bugId": "454",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1364,
+    "fields": {
+      "bugId": "455",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1367,
+    "fields": {
+      "bugId": "456",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1370,
+    "fields": {
+      "bugId": "457",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1373,
+    "fields": {
+      "bugId": "458",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1376,
+    "fields": {
+      "bugId": "459",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1379,
+    "fields": {
+      "bugId": "460",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1382,
+    "fields": {
+      "bugId": "461",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1385,
+    "fields": {
+      "bugId": "462",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1388,
+    "fields": {
+      "bugId": "463",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1391,
+    "fields": {
+      "bugId": "464",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1394,
+    "fields": {
+      "bugId": "465",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1397,
+    "fields": {
+      "bugId": "466",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1400,
+    "fields": {
+      "bugId": "467",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1403,
+    "fields": {
+      "bugId": "468",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1406,
+    "fields": {
+      "bugId": "469",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1409,
+    "fields": {
+      "bugId": "470",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1412,
+    "fields": {
+      "bugId": "471",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1415,
+    "fields": {
+      "bugId": "472",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1418,
+    "fields": {
+      "bugId": "473",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1421,
+    "fields": {
+      "bugId": "474",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1424,
+    "fields": {
+      "bugId": "475",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1427,
+    "fields": {
+      "bugId": "476",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1430,
+    "fields": {
+      "bugId": "477",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1433,
+    "fields": {
+      "bugId": "478",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1436,
+    "fields": {
+      "bugId": "479",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1439,
+    "fields": {
+      "bugId": "480",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1442,
+    "fields": {
+      "bugId": "481",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1445,
+    "fields": {
+      "bugId": "482",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1448,
+    "fields": {
+      "bugId": "483",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1451,
+    "fields": {
+      "bugId": "484",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1454,
+    "fields": {
+      "bugId": "485",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1457,
+    "fields": {
+      "bugId": "486",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1460,
+    "fields": {
+      "bugId": "487",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1463,
+    "fields": {
+      "bugId": "488",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1466,
+    "fields": {
+      "bugId": "489",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1469,
+    "fields": {
+      "bugId": "490",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1472,
+    "fields": {
+      "bugId": "491",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1475,
+    "fields": {
+      "bugId": "492",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1478,
+    "fields": {
+      "bugId": "493",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1481,
+    "fields": {
+      "bugId": "494",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1484,
+    "fields": {
+      "bugId": "495",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1487,
+    "fields": {
+      "bugId": "496",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1490,
+    "fields": {
+      "bugId": "497",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1493,
+    "fields": {
+      "bugId": "498",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1496,
+    "fields": {
+      "bugId": "499",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1499,
+    "fields": {
+      "bugId": "500",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1502,
+    "fields": {
+      "bugId": "501",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1505,
+    "fields": {
+      "bugId": "502",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1508,
+    "fields": {
+      "bugId": "503",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1511,
+    "fields": {
+      "bugId": "504",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1514,
+    "fields": {
+      "bugId": "505",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1517,
+    "fields": {
+      "bugId": "506",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1520,
+    "fields": {
+      "bugId": "507",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1523,
+    "fields": {
+      "bugId": "508",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1526,
+    "fields": {
+      "bugId": "509",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1529,
+    "fields": {
+      "bugId": "510",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1532,
+    "fields": {
+      "bugId": "511",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1535,
+    "fields": {
+      "bugId": "512",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1538,
+    "fields": {
+      "bugId": "513",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1541,
+    "fields": {
+      "bugId": "514",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1544,
+    "fields": {
+      "bugId": "515",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1547,
+    "fields": {
+      "bugId": "516",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1550,
+    "fields": {
+      "bugId": "517",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1553,
+    "fields": {
+      "bugId": "518",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1556,
+    "fields": {
+      "bugId": "519",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1559,
+    "fields": {
+      "bugId": "520",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1562,
+    "fields": {
+      "bugId": "521",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1565,
+    "fields": {
+      "bugId": "522",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1568,
+    "fields": {
+      "bugId": "523",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1571,
+    "fields": {
+      "bugId": "524",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1574,
+    "fields": {
+      "bugId": "525",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1577,
+    "fields": {
+      "bugId": "526",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1580,
+    "fields": {
+      "bugId": "527",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1583,
+    "fields": {
+      "bugId": "528",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1586,
+    "fields": {
+      "bugId": "529",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1589,
+    "fields": {
+      "bugId": "530",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1592,
+    "fields": {
+      "bugId": "531",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1595,
+    "fields": {
+      "bugId": "532",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1598,
+    "fields": {
+      "bugId": "533",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1601,
+    "fields": {
+      "bugId": "534",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1604,
+    "fields": {
+      "bugId": "535",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1607,
+    "fields": {
+      "bugId": "536",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1610,
+    "fields": {
+      "bugId": "537",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1613,
+    "fields": {
+      "bugId": "538",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1616,
+    "fields": {
+      "bugId": "539",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1619,
+    "fields": {
+      "bugId": "540",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1622,
+    "fields": {
+      "bugId": "541",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1625,
+    "fields": {
+      "bugId": "542",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1628,
+    "fields": {
+      "bugId": "543",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1631,
+    "fields": {
+      "bugId": "544",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1634,
+    "fields": {
+      "bugId": "545",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1637,
+    "fields": {
+      "bugId": "546",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1640,
+    "fields": {
+      "bugId": "547",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1643,
+    "fields": {
+      "bugId": "548",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1646,
+    "fields": {
+      "bugId": "549",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1649,
+    "fields": {
+      "bugId": "550",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1652,
+    "fields": {
+      "bugId": "551",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1655,
+    "fields": {
+      "bugId": "552",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1658,
+    "fields": {
+      "bugId": "553",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1661,
+    "fields": {
+      "bugId": "554",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1664,
+    "fields": {
+      "bugId": "555",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1667,
+    "fields": {
+      "bugId": "556",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1670,
+    "fields": {
+      "bugId": "557",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1673,
+    "fields": {
+      "bugId": "558",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1676,
+    "fields": {
+      "bugId": "559",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1679,
+    "fields": {
+      "bugId": "560",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1682,
+    "fields": {
+      "bugId": "561",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1685,
+    "fields": {
+      "bugId": "562",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1688,
+    "fields": {
+      "bugId": "563",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1691,
+    "fields": {
+      "bugId": "564",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1694,
+    "fields": {
+      "bugId": "565",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1697,
+    "fields": {
+      "bugId": "566",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1700,
+    "fields": {
+      "bugId": "567",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1703,
+    "fields": {
+      "bugId": "568",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1706,
+    "fields": {
+      "bugId": "569",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1709,
+    "fields": {
+      "bugId": "570",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1712,
+    "fields": {
+      "bugId": "571",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1715,
+    "fields": {
+      "bugId": "572",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1718,
+    "fields": {
+      "bugId": "573",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1721,
+    "fields": {
+      "bugId": "574",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1724,
+    "fields": {
+      "bugId": "575",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1727,
+    "fields": {
+      "bugId": "576",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1730,
+    "fields": {
+      "bugId": "577",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1733,
+    "fields": {
+      "bugId": "578",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1736,
+    "fields": {
+      "bugId": "579",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1739,
+    "fields": {
+      "bugId": "580",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1742,
+    "fields": {
+      "bugId": "581",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1745,
+    "fields": {
+      "bugId": "582",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1748,
+    "fields": {
+      "bugId": "583",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1751,
+    "fields": {
+      "bugId": "584",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1754,
+    "fields": {
+      "bugId": "585",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1757,
+    "fields": {
+      "bugId": "586",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1760,
+    "fields": {
+      "bugId": "587",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1763,
+    "fields": {
+      "bugId": "588",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1766,
+    "fields": {
+      "bugId": "589",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1769,
+    "fields": {
+      "bugId": "590",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1772,
+    "fields": {
+      "bugId": "591",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1775,
+    "fields": {
+      "bugId": "592",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1778,
+    "fields": {
+      "bugId": "593",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1781,
+    "fields": {
+      "bugId": "594",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1784,
+    "fields": {
+      "bugId": "595",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1787,
+    "fields": {
+      "bugId": "596",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1790,
+    "fields": {
+      "bugId": "597",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1793,
+    "fields": {
+      "bugId": "598",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1796,
+    "fields": {
+      "bugId": "599",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1799,
+    "fields": {
+      "bugId": "600",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1802,
+    "fields": {
+      "bugId": "601",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1805,
+    "fields": {
+      "bugId": "602",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1808,
+    "fields": {
+      "bugId": "603",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1811,
+    "fields": {
+      "bugId": "604",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1814,
+    "fields": {
+      "bugId": "605",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1817,
+    "fields": {
+      "bugId": "606",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1820,
+    "fields": {
+      "bugId": "607",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1823,
+    "fields": {
+      "bugId": "608",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1826,
+    "fields": {
+      "bugId": "609",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1829,
+    "fields": {
+      "bugId": "610",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1832,
+    "fields": {
+      "bugId": "611",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1835,
+    "fields": {
+      "bugId": "612",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1838,
+    "fields": {
+      "bugId": "613",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1841,
+    "fields": {
+      "bugId": "614",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1844,
+    "fields": {
+      "bugId": "615",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1847,
+    "fields": {
+      "bugId": "616",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1850,
+    "fields": {
+      "bugId": "617",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1853,
+    "fields": {
+      "bugId": "618",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1856,
+    "fields": {
+      "bugId": "619",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1859,
+    "fields": {
+      "bugId": "620",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1862,
+    "fields": {
+      "bugId": "621",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1865,
+    "fields": {
+      "bugId": "622",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1868,
+    "fields": {
+      "bugId": "623",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1871,
+    "fields": {
+      "bugId": "624",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1874,
+    "fields": {
+      "bugId": "625",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1877,
+    "fields": {
+      "bugId": "626",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1880,
+    "fields": {
+      "bugId": "627",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1883,
+    "fields": {
+      "bugId": "628",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1886,
+    "fields": {
+      "bugId": "629",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1889,
+    "fields": {
+      "bugId": "630",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1892,
+    "fields": {
+      "bugId": "631",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1895,
+    "fields": {
+      "bugId": "632",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1898,
+    "fields": {
+      "bugId": "633",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1901,
+    "fields": {
+      "bugId": "634",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1904,
+    "fields": {
+      "bugId": "635",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1907,
+    "fields": {
+      "bugId": "636",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1910,
+    "fields": {
+      "bugId": "637",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1913,
+    "fields": {
+      "bugId": "638",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1916,
+    "fields": {
+      "bugId": "639",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1919,
+    "fields": {
+      "bugId": "640",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1922,
+    "fields": {
+      "bugId": "641",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1925,
+    "fields": {
+      "bugId": "642",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1928,
+    "fields": {
+      "bugId": "643",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1931,
+    "fields": {
+      "bugId": "644",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1934,
+    "fields": {
+      "bugId": "645",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1937,
+    "fields": {
+      "bugId": "646",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1940,
+    "fields": {
+      "bugId": "647",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1943,
+    "fields": {
+      "bugId": "648",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1946,
+    "fields": {
+      "bugId": "649",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1949,
+    "fields": {
+      "bugId": "650",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1952,
+    "fields": {
+      "bugId": "651",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1955,
+    "fields": {
+      "bugId": "652",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1958,
+    "fields": {
+      "bugId": "653",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1961,
+    "fields": {
+      "bugId": "654",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1964,
+    "fields": {
+      "bugId": "655",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1967,
+    "fields": {
+      "bugId": "656",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1970,
+    "fields": {
+      "bugId": "657",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1973,
+    "fields": {
+      "bugId": "658",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1976,
+    "fields": {
+      "bugId": "659",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1979,
+    "fields": {
+      "bugId": "660",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1982,
+    "fields": {
+      "bugId": "661",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1985,
+    "fields": {
+      "bugId": "662",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1988,
+    "fields": {
+      "bugId": "663",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1991,
+    "fields": {
+      "bugId": "664",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1994,
+    "fields": {
+      "bugId": "665",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 1997,
+    "fields": {
+      "bugId": "666",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2000,
+    "fields": {
+      "bugId": "667",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2003,
+    "fields": {
+      "bugId": "668",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2006,
+    "fields": {
+      "bugId": "669",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2009,
+    "fields": {
+      "bugId": "670",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2012,
+    "fields": {
+      "bugId": "671",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2015,
+    "fields": {
+      "bugId": "672",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2018,
+    "fields": {
+      "bugId": "673",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2021,
+    "fields": {
+      "bugId": "674",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2024,
+    "fields": {
+      "bugId": "675",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2027,
+    "fields": {
+      "bugId": "676",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2030,
+    "fields": {
+      "bugId": "677",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2033,
+    "fields": {
+      "bugId": "678",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2036,
+    "fields": {
+      "bugId": "679",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2039,
+    "fields": {
+      "bugId": "680",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2042,
+    "fields": {
+      "bugId": "681",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2045,
+    "fields": {
+      "bugId": "682",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2048,
+    "fields": {
+      "bugId": "683",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2051,
+    "fields": {
+      "bugId": "684",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2054,
+    "fields": {
+      "bugId": "685",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2057,
+    "fields": {
+      "bugId": "686",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2060,
+    "fields": {
+      "bugId": "687",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2063,
+    "fields": {
+      "bugId": "688",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2066,
+    "fields": {
+      "bugId": "689",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2069,
+    "fields": {
+      "bugId": "690",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2072,
+    "fields": {
+      "bugId": "691",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2075,
+    "fields": {
+      "bugId": "692",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2078,
+    "fields": {
+      "bugId": "693",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2081,
+    "fields": {
+      "bugId": "694",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2084,
+    "fields": {
+      "bugId": "695",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2087,
+    "fields": {
+      "bugId": "696",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2090,
+    "fields": {
+      "bugId": "697",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2093,
+    "fields": {
+      "bugId": "698",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2096,
+    "fields": {
+      "bugId": "699",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2099,
+    "fields": {
+      "bugId": "700",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2102,
+    "fields": {
+      "bugId": "701",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2105,
+    "fields": {
+      "bugId": "702",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2108,
+    "fields": {
+      "bugId": "703",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2111,
+    "fields": {
+      "bugId": "704",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2114,
+    "fields": {
+      "bugId": "705",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2117,
+    "fields": {
+      "bugId": "706",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2120,
+    "fields": {
+      "bugId": "707",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2123,
+    "fields": {
+      "bugId": "708",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2126,
+    "fields": {
+      "bugId": "709",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2129,
+    "fields": {
+      "bugId": "710",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2132,
+    "fields": {
+      "bugId": "711",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2135,
+    "fields": {
+      "bugId": "712",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2138,
+    "fields": {
+      "bugId": "713",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2141,
+    "fields": {
+      "bugId": "714",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2144,
+    "fields": {
+      "bugId": "715",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2147,
+    "fields": {
+      "bugId": "716",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2150,
+    "fields": {
+      "bugId": "717",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2153,
+    "fields": {
+      "bugId": "718",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2156,
+    "fields": {
+      "bugId": "719",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2159,
+    "fields": {
+      "bugId": "720",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2162,
+    "fields": {
+      "bugId": "721",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2165,
+    "fields": {
+      "bugId": "722",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2168,
+    "fields": {
+      "bugId": "723",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2171,
+    "fields": {
+      "bugId": "724",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2174,
+    "fields": {
+      "bugId": "725",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2177,
+    "fields": {
+      "bugId": "726",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2180,
+    "fields": {
+      "bugId": "727",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2183,
+    "fields": {
+      "bugId": "728",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2186,
+    "fields": {
+      "bugId": "729",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2189,
+    "fields": {
+      "bugId": "730",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2192,
+    "fields": {
+      "bugId": "731",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2195,
+    "fields": {
+      "bugId": "732",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2198,
+    "fields": {
+      "bugId": "733",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2201,
+    "fields": {
+      "bugId": "734",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2204,
+    "fields": {
+      "bugId": "735",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2207,
+    "fields": {
+      "bugId": "736",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2210,
+    "fields": {
+      "bugId": "737",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2213,
+    "fields": {
+      "bugId": "738",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2216,
+    "fields": {
+      "bugId": "739",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2219,
+    "fields": {
+      "bugId": "740",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2222,
+    "fields": {
+      "bugId": "741",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2225,
+    "fields": {
+      "bugId": "742",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2228,
+    "fields": {
+      "bugId": "743",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2231,
+    "fields": {
+      "bugId": "744",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2234,
+    "fields": {
+      "bugId": "745",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2237,
+    "fields": {
+      "bugId": "746",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2240,
+    "fields": {
+      "bugId": "747",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2243,
+    "fields": {
+      "bugId": "748",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2246,
+    "fields": {
+      "bugId": "749",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2249,
+    "fields": {
+      "bugId": "750",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2252,
+    "fields": {
+      "bugId": "751",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2255,
+    "fields": {
+      "bugId": "752",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2258,
+    "fields": {
+      "bugId": "753",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2261,
+    "fields": {
+      "bugId": "754",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2264,
+    "fields": {
+      "bugId": "755",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2267,
+    "fields": {
+      "bugId": "756",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2270,
+    "fields": {
+      "bugId": "757",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2273,
+    "fields": {
+      "bugId": "758",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2276,
+    "fields": {
+      "bugId": "759",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2279,
+    "fields": {
+      "bugId": "760",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2282,
+    "fields": {
+      "bugId": "761",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2285,
+    "fields": {
+      "bugId": "762",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2288,
+    "fields": {
+      "bugId": "763",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2291,
+    "fields": {
+      "bugId": "764",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2294,
+    "fields": {
+      "bugId": "765",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2297,
+    "fields": {
+      "bugId": "766",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2300,
+    "fields": {
+      "bugId": "767",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2303,
+    "fields": {
+      "bugId": "768",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2306,
+    "fields": {
+      "bugId": "769",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2309,
+    "fields": {
+      "bugId": "770",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2312,
+    "fields": {
+      "bugId": "771",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2315,
+    "fields": {
+      "bugId": "772",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2318,
+    "fields": {
+      "bugId": "773",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2321,
+    "fields": {
+      "bugId": "774",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2324,
+    "fields": {
+      "bugId": "775",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2327,
+    "fields": {
+      "bugId": "776",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2330,
+    "fields": {
+      "bugId": "777",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2333,
+    "fields": {
+      "bugId": "778",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2336,
+    "fields": {
+      "bugId": "779",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2339,
+    "fields": {
+      "bugId": "780",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2342,
+    "fields": {
+      "bugId": "781",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2345,
+    "fields": {
+      "bugId": "782",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2348,
+    "fields": {
+      "bugId": "783",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2351,
+    "fields": {
+      "bugId": "784",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2354,
+    "fields": {
+      "bugId": "785",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2357,
+    "fields": {
+      "bugId": "786",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2360,
+    "fields": {
+      "bugId": "787",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2363,
+    "fields": {
+      "bugId": "788",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2366,
+    "fields": {
+      "bugId": "789",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2369,
+    "fields": {
+      "bugId": "790",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2372,
+    "fields": {
+      "bugId": "791",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2375,
+    "fields": {
+      "bugId": "792",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2378,
+    "fields": {
+      "bugId": "793",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2381,
+    "fields": {
+      "bugId": "794",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2384,
+    "fields": {
+      "bugId": "795",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2387,
+    "fields": {
+      "bugId": "796",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2390,
+    "fields": {
+      "bugId": "797",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2393,
+    "fields": {
+      "bugId": "798",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2396,
+    "fields": {
+      "bugId": "799",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2399,
+    "fields": {
+      "bugId": "800",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2402,
+    "fields": {
+      "bugId": "801",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2405,
+    "fields": {
+      "bugId": "802",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2408,
+    "fields": {
+      "bugId": "803",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2411,
+    "fields": {
+      "bugId": "804",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2414,
+    "fields": {
+      "bugId": "805",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2417,
+    "fields": {
+      "bugId": "806",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2420,
+    "fields": {
+      "bugId": "807",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2423,
+    "fields": {
+      "bugId": "808",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2426,
+    "fields": {
+      "bugId": "809",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2429,
+    "fields": {
+      "bugId": "810",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2432,
+    "fields": {
+      "bugId": "811",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2435,
+    "fields": {
+      "bugId": "812",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2438,
+    "fields": {
+      "bugId": "813",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2441,
+    "fields": {
+      "bugId": "814",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2444,
+    "fields": {
+      "bugId": "815",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2447,
+    "fields": {
+      "bugId": "816",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2450,
+    "fields": {
+      "bugId": "817",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2453,
+    "fields": {
+      "bugId": "818",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2456,
+    "fields": {
+      "bugId": "819",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2459,
+    "fields": {
+      "bugId": "820",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2462,
+    "fields": {
+      "bugId": "821",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2465,
+    "fields": {
+      "bugId": "822",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2468,
+    "fields": {
+      "bugId": "823",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2471,
+    "fields": {
+      "bugId": "824",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2474,
+    "fields": {
+      "bugId": "825",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2477,
+    "fields": {
+      "bugId": "826",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2480,
+    "fields": {
+      "bugId": "827",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2483,
+    "fields": {
+      "bugId": "828",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2486,
+    "fields": {
+      "bugId": "829",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2489,
+    "fields": {
+      "bugId": "830",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2492,
+    "fields": {
+      "bugId": "831",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2495,
+    "fields": {
+      "bugId": "832",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2498,
+    "fields": {
+      "bugId": "833",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2501,
+    "fields": {
+      "bugId": "834",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2504,
+    "fields": {
+      "bugId": "835",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2507,
+    "fields": {
+      "bugId": "836",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2510,
+    "fields": {
+      "bugId": "837",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2513,
+    "fields": {
+      "bugId": "838",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2516,
+    "fields": {
+      "bugId": "839",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2519,
+    "fields": {
+      "bugId": "840",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2522,
+    "fields": {
+      "bugId": "841",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2525,
+    "fields": {
+      "bugId": "842",
+      "deviceId": "5",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2528,
+    "fields": {
+      "bugId": "843",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2531,
+    "fields": {
+      "bugId": "844",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2534,
+    "fields": {
+      "bugId": "845",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2537,
+    "fields": {
+      "bugId": "846",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2540,
+    "fields": {
+      "bugId": "847",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2543,
+    "fields": {
+      "bugId": "848",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2546,
+    "fields": {
+      "bugId": "849",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2549,
+    "fields": {
+      "bugId": "850",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2552,
+    "fields": {
+      "bugId": "851",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2555,
+    "fields": {
+      "bugId": "852",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2558,
+    "fields": {
+      "bugId": "853",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2561,
+    "fields": {
+      "bugId": "854",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2564,
+    "fields": {
+      "bugId": "855",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2567,
+    "fields": {
+      "bugId": "856",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2570,
+    "fields": {
+      "bugId": "857",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2573,
+    "fields": {
+      "bugId": "858",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2576,
+    "fields": {
+      "bugId": "859",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2579,
+    "fields": {
+      "bugId": "860",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2582,
+    "fields": {
+      "bugId": "861",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2585,
+    "fields": {
+      "bugId": "862",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2588,
+    "fields": {
+      "bugId": "863",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2591,
+    "fields": {
+      "bugId": "864",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2594,
+    "fields": {
+      "bugId": "865",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2597,
+    "fields": {
+      "bugId": "866",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2600,
+    "fields": {
+      "bugId": "867",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2603,
+    "fields": {
+      "bugId": "868",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2606,
+    "fields": {
+      "bugId": "869",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2609,
+    "fields": {
+      "bugId": "870",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2612,
+    "fields": {
+      "bugId": "871",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2615,
+    "fields": {
+      "bugId": "872",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2618,
+    "fields": {
+      "bugId": "873",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2621,
+    "fields": {
+      "bugId": "874",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2624,
+    "fields": {
+      "bugId": "875",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2627,
+    "fields": {
+      "bugId": "876",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2630,
+    "fields": {
+      "bugId": "877",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2633,
+    "fields": {
+      "bugId": "878",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2636,
+    "fields": {
+      "bugId": "879",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2639,
+    "fields": {
+      "bugId": "880",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2642,
+    "fields": {
+      "bugId": "881",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2645,
+    "fields": {
+      "bugId": "882",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2648,
+    "fields": {
+      "bugId": "883",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2651,
+    "fields": {
+      "bugId": "884",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2654,
+    "fields": {
+      "bugId": "885",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2657,
+    "fields": {
+      "bugId": "886",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2660,
+    "fields": {
+      "bugId": "887",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2663,
+    "fields": {
+      "bugId": "888",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2666,
+    "fields": {
+      "bugId": "889",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2669,
+    "fields": {
+      "bugId": "890",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2672,
+    "fields": {
+      "bugId": "891",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2675,
+    "fields": {
+      "bugId": "892",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2678,
+    "fields": {
+      "bugId": "893",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2681,
+    "fields": {
+      "bugId": "894",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2684,
+    "fields": {
+      "bugId": "895",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2687,
+    "fields": {
+      "bugId": "896",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2690,
+    "fields": {
+      "bugId": "897",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2693,
+    "fields": {
+      "bugId": "898",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2696,
+    "fields": {
+      "bugId": "899",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2699,
+    "fields": {
+      "bugId": "900",
+      "deviceId": "9",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2702,
+    "fields": {
+      "bugId": "901",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2705,
+    "fields": {
+      "bugId": "902",
+      "deviceId": "4",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2708,
+    "fields": {
+      "bugId": "903",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2711,
+    "fields": {
+      "bugId": "904",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2714,
+    "fields": {
+      "bugId": "905",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2717,
+    "fields": {
+      "bugId": "906",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2720,
+    "fields": {
+      "bugId": "907",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2723,
+    "fields": {
+      "bugId": "908",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2726,
+    "fields": {
+      "bugId": "909",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2729,
+    "fields": {
+      "bugId": "910",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2732,
+    "fields": {
+      "bugId": "911",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2735,
+    "fields": {
+      "bugId": "912",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2738,
+    "fields": {
+      "bugId": "913",
+      "deviceId": "5",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2741,
+    "fields": {
+      "bugId": "914",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2744,
+    "fields": {
+      "bugId": "915",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2747,
+    "fields": {
+      "bugId": "916",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2750,
+    "fields": {
+      "bugId": "917",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2753,
+    "fields": {
+      "bugId": "918",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2756,
+    "fields": {
+      "bugId": "919",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2759,
+    "fields": {
+      "bugId": "920",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2762,
+    "fields": {
+      "bugId": "921",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2765,
+    "fields": {
+      "bugId": "922",
+      "deviceId": "8",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2768,
+    "fields": {
+      "bugId": "923",
+      "deviceId": "1",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2771,
+    "fields": {
+      "bugId": "924",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2774,
+    "fields": {
+      "bugId": "925",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2777,
+    "fields": {
+      "bugId": "926",
+      "deviceId": "3",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2780,
+    "fields": {
+      "bugId": "927",
+      "deviceId": "6",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2783,
+    "fields": {
+      "bugId": "928",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2786,
+    "fields": {
+      "bugId": "929",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2789,
+    "fields": {
+      "bugId": "930",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2792,
+    "fields": {
+      "bugId": "931",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2795,
+    "fields": {
+      "bugId": "932",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2798,
+    "fields": {
+      "bugId": "933",
+      "deviceId": "8",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2801,
+    "fields": {
+      "bugId": "934",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2804,
+    "fields": {
+      "bugId": "935",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2807,
+    "fields": {
+      "bugId": "936",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2810,
+    "fields": {
+      "bugId": "937",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2813,
+    "fields": {
+      "bugId": "938",
+      "deviceId": "1",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2816,
+    "fields": {
+      "bugId": "939",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2819,
+    "fields": {
+      "bugId": "940",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2822,
+    "fields": {
+      "bugId": "941",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2825,
+    "fields": {
+      "bugId": "942",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2828,
+    "fields": {
+      "bugId": "943",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2831,
+    "fields": {
+      "bugId": "944",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2834,
+    "fields": {
+      "bugId": "945",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2837,
+    "fields": {
+      "bugId": "946",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2840,
+    "fields": {
+      "bugId": "947",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2843,
+    "fields": {
+      "bugId": "948",
+      "deviceId": "4",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2846,
+    "fields": {
+      "bugId": "949",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2849,
+    "fields": {
+      "bugId": "950",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2852,
+    "fields": {
+      "bugId": "951",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2855,
+    "fields": {
+      "bugId": "952",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2858,
+    "fields": {
+      "bugId": "953",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2861,
+    "fields": {
+      "bugId": "954",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2864,
+    "fields": {
+      "bugId": "955",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2867,
+    "fields": {
+      "bugId": "956",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2870,
+    "fields": {
+      "bugId": "957",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2873,
+    "fields": {
+      "bugId": "958",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2876,
+    "fields": {
+      "bugId": "959",
+      "deviceId": "10",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2879,
+    "fields": {
+      "bugId": "960",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2882,
+    "fields": {
+      "bugId": "961",
+      "deviceId": "6",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2885,
+    "fields": {
+      "bugId": "962",
+      "deviceId": "1",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2888,
+    "fields": {
+      "bugId": "963",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2891,
+    "fields": {
+      "bugId": "964",
+      "deviceId": "6",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2894,
+    "fields": {
+      "bugId": "965",
+      "deviceId": "8",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2897,
+    "fields": {
+      "bugId": "966",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2900,
+    "fields": {
+      "bugId": "967",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2903,
+    "fields": {
+      "bugId": "968",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2906,
+    "fields": {
+      "bugId": "969",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2909,
+    "fields": {
+      "bugId": "970",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2912,
+    "fields": {
+      "bugId": "971",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2915,
+    "fields": {
+      "bugId": "972",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2918,
+    "fields": {
+      "bugId": "973",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2921,
+    "fields": {
+      "bugId": "974",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2924,
+    "fields": {
+      "bugId": "975",
+      "deviceId": "9",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2927,
+    "fields": {
+      "bugId": "976",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2930,
+    "fields": {
+      "bugId": "977",
+      "deviceId": "6",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2933,
+    "fields": {
+      "bugId": "978",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2936,
+    "fields": {
+      "bugId": "979",
+      "deviceId": "5",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2939,
+    "fields": {
+      "bugId": "980",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2942,
+    "fields": {
+      "bugId": "981",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2945,
+    "fields": {
+      "bugId": "982",
+      "deviceId": "6",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2948,
+    "fields": {
+      "bugId": "983",
+      "deviceId": "10",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2951,
+    "fields": {
+      "bugId": "984",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2954,
+    "fields": {
+      "bugId": "985",
+      "deviceId": "7",
+      "testerId": "5"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2957,
+    "fields": {
+      "bugId": "986",
+      "deviceId": "5",
+      "testerId": "9"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2960,
+    "fields": {
+      "bugId": "987",
+      "deviceId": "3",
+      "testerId": "6"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2963,
+    "fields": {
+      "bugId": "988",
+      "deviceId": "10",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2966,
+    "fields": {
+      "bugId": "989",
+      "deviceId": "3",
+      "testerId": "8"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2969,
+    "fields": {
+      "bugId": "990",
+      "deviceId": "1",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2972,
+    "fields": {
+      "bugId": "991",
+      "deviceId": "7",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2975,
+    "fields": {
+      "bugId": "992",
+      "deviceId": "3",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2978,
+    "fields": {
+      "bugId": "993",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2981,
+    "fields": {
+      "bugId": "994",
+      "deviceId": "2",
+      "testerId": "4"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2984,
+    "fields": {
+      "bugId": "995",
+      "deviceId": "7",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2987,
+    "fields": {
+      "bugId": "996",
+      "deviceId": "2",
+      "testerId": "1"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2990,
+    "fields": {
+      "bugId": "997",
+      "deviceId": "4",
+      "testerId": "3"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2993,
+    "fields": {
+      "bugId": "998",
+      "deviceId": "5",
+      "testerId": "2"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2996,
+    "fields": {
+      "bugId": "999",
+      "deviceId": "6",
+      "testerId": "7"
+    }
+  },
+  {
+    "model": "tester_matching.bug",
+    "pk": 2999,
+    "fields": {
+      "bugId": "1000",
+      "deviceId": "9",
+      "testerId": "8"
+    }
+  }
+]
