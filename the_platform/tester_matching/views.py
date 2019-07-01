@@ -50,14 +50,16 @@ def parse_db_count_bugs(query_set) -> Dict:
     Rest of the fields are considered non-essential and will be thrown into the object,
     if only they appear. E.g. 'testerId__firstName', 'testerId__lastName', etc.
 
-    We return objects like this:
+    We return an unordered map like this:
         {5: {'first_name': 'Mingquan',
             'last_name': 'Zheng',
-            'submissions': {'iPhone 4': 21}},
+            'submissions': {'iPhone 4': 21},
+            'total': 21},
         8: {'first_name': 'Sean',
             'last_name': 'Wellington',
             'country': "GB",
-            'submissions': {'iPhone 4': 28, 'iPhone 5': 30}}}
+            'submissions': {'iPhone 4': 28, 'iPhone 5': 30}
+            'total': 58}}
     '''
 
     result = {}
@@ -68,6 +70,7 @@ def parse_db_count_bugs(query_set) -> Dict:
         if t_id not in result.keys():
             result[t_id] = {
                 'submissions': {},
+                'total': 0,
             }
 
             # adding non-essential keys
@@ -81,16 +84,18 @@ def parse_db_count_bugs(query_set) -> Dict:
         device = row['deviceId__description']
         bugs_count = row['submissions']
         result[t_id]['submissions'][device] = bugs_count
+        result[t_id]['total'] += bugs_count
 
     return result
 
 
 def search_db_count_bugs(countries: List[str], devices: List[str]) -> QuerySet:
     '''
-    Returns a QuerySet of rows containing:
+    Given lists of countries and devices, returns a QuerySet of rows containing:
         'deviceId', 'testerId', 'deviceId__description', 'submissions'
         + some other defineable columns.
-    Does not evaluate the QuerySet at any point.
+    Does not evaluate the QuerySet at any point,
+    so whole workload should be performed by the DB engine.
     '''
 
     devices_ids_q = Device.objects.all()
@@ -118,6 +123,7 @@ def search_db_count_bugs(countries: List[str], devices: List[str]) -> QuerySet:
 def post_search_json(request: HttpRequest):
     '''
     Reads POST data, retrieves the search results, returns it in JSON format.
+    On error sends a JSON explaining what went wrong.
     '''
 
     try:
@@ -127,6 +133,7 @@ def post_search_json(request: HttpRequest):
         return error_json(f"missing field {e.args[0]}")
 
     # further sanitization is not necessary, Django prevents SQL injections
+
     bugs_query_set = search_db_count_bugs(countries, devices)
 
     formatted_data = parse_db_count_bugs(bugs_query_set)
