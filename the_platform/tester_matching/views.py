@@ -20,7 +20,7 @@ def error_json(error_msg):
 '''
 This allows for choosing what to include in the JSON result, besides the necessary data.
 '''
-NON_ESSENTIAL_FIELDS = {
+NONESSENTIAL_FIELDS = {
     'testerId__firstName': 'first_name',
     'testerId__lastName': 'last_name',
     'testerId__country': 'country',
@@ -57,8 +57,8 @@ def parse_db_count_bugs(query_set) -> Dict:
             'total': 21},
         8: {'first_name': 'Sean',
             'last_name': 'Wellington',
-            'country': "GB",
-            'submissions': {'iPhone 4': 28, 'iPhone 5': 30}
+            'country': 'GB',
+            'submissions': {'iPhone 4': 28, 'iPhone 5': 30},
             'total': 58}}
     '''
 
@@ -74,7 +74,7 @@ def parse_db_count_bugs(query_set) -> Dict:
             }
 
             # adding non-essential keys
-            for db_key, json_key in NON_ESSENTIAL_FIELDS.items():
+            for db_key, json_key in NONESSENTIAL_FIELDS.items():
                 try:
                     result[t_id][json_key] = row[db_key]
                 except:
@@ -113,9 +113,9 @@ def search_db_count_bugs(countries: List[str], devices: List[str]) -> QuerySet:
     bug_count_q = Bug.objects.select_related('testerId', 'deviceId')\
         .filter(testerId__country__in=countries_ids_q)\
         .filter(deviceId__in=devices_ids_q)\
-        .values('deviceId', 'testerId', 'deviceId__description', *NON_ESSENTIAL_FIELDS.keys())\
+        .values('deviceId', 'testerId', 'deviceId__description', *NONESSENTIAL_FIELDS.keys())\
         .annotate(submissions=Count('bugId'))\
-        .values('deviceId', 'testerId', 'deviceId__description', 'submissions', *NON_ESSENTIAL_FIELDS.keys())
+        .values('deviceId', 'testerId', 'deviceId__description', 'submissions', *NONESSENTIAL_FIELDS.keys())
 
     return bug_count_q
 
