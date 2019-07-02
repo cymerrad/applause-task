@@ -2,7 +2,6 @@ from django.test import TestCase
 from .views import search_db_count_bugs, parse_db_count_bugs
 from .models import Bug
 from django.db.models import Count
-import re
 
 
 class DBSearchBugCount(TestCase):
@@ -182,5 +181,43 @@ class ParsedSearchResults(TestCase):
         self.assertDictEqual(parsed, docstring_example)
 
 
-class IntegrationTests(TestCase):
-    pass
+class PostSearch(TestCase):
+    '''
+    These tests require a mocked database.
+    '''
+
+    fixtures = {'fixture.test.json'}
+
+    def test_empty_input(self):
+        response = self.client.post(
+            '/api/search', {'countries': '', 'devices': ''})
+
+        self.assertEqual(response.json(), {})
+        self.assertEqual(response.content, b'{}')
+
+    def test_missing_countries_in_post(self):
+        response = self.client.post(
+            '/api/search', {'devices': ''})
+
+        self.assertEqual(response.json(), {
+                         'error': "missing field: 'countries'"})
+
+    def test_missing_devices_in_post(self):
+        response = self.client.post(
+            '/api/search', {'countries': ''})
+
+        self.assertEqual(response.json(), {
+                         'error': "missing field: 'devices'"})
+
+    def test_multiple_values_in_post(self):
+        response = self.client.post(
+            '/api/search', {'countries': ('JP', 'GB'), 'devices': ('iPhone 4', 'iPhone 5')})
+
+        obj = response.json()
+
+        # is not an error response
+        with self.assertRaises(KeyError):
+            obj['error']
+
+        # contains some data
+        self.assertGreater(len(obj.keys()), 0)
