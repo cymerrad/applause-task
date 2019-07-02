@@ -9,6 +9,18 @@ cd the_platform
 ./manage.py makemigrations
 ./manage.py migrate
 ./manage.py loaddata tester_matching/fixtures/fixture.test.json
+
+./manage.py runserver
+```
+
+Example usage (assuming `curl` is installed)
+```shell
+# GB and ALL devices
+curl --data "countries=GB&devices=ALL" http://127.0.0.1:8000/api/search
+# ALL countries and an iPhone 4
+curl --data "countries=ALL&devices=iPhone%204" http://127.0.0.1:8000/api/search
+# JP and iPhone 4 OR iPhone 5
+curl --data "countries=JP&devices=iPhone%204&devices=iPhone%205" http://127.0.0.1:8000/api/search
 ```
 
 Generating fixtures
