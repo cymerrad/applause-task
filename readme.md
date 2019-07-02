@@ -19,6 +19,11 @@ cd data
 cd -
 ```
 
+# Quick links
+1. [views.py](the_platform/tester_matching/views.py)
+1. [models.py](the_platform/tester_matching/models.py)
+1. [tests.py](the_platform/tester_matching/tests.py)
+
 # Rationales and caveats
 Woven into the code, are comments about possible extensions or solutions to potential problems, that might arise with further development.
 
@@ -45,4 +50,3 @@ I've made some bold assumptions about the task. These are:
 1. [x] This suggest using something with ORM capabilities, let it be Django for simplicity
 1. [x] Create a Django app for doing the business logic; this should be just a few SQL queries
 1. [x] Simple API
-1. [ ] Simple web interface
