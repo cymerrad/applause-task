@@ -51,7 +51,7 @@ I've made some bold assumptions about the task. These are:
 - Table schemas won't change anytime soon, so they are _mostly_ hardcoded - however, I've left some notes in the views.py file on how I'd solve the issue of hardcoded strings
 - CSV files represent database structure **exactly** and I should conform to that, so field names are sometimes misleading, e.g. 'deviceId' in models.Bug should be just a 'device'
 - Crux of the task is one SQL query, so I haven't bothered with separating views from the business logic - this way everything is contained inside one 150-ish LoC file.
-- Tests are performed on the constant fixture (tester_matching/fixtures); all tests base upon easy observations on the data
+- Tests are performed on the constant fixture ([tester_matching/fixtures](the_platform/tester_matching/fixtures)); all tests base upon easy observations on the data
 - Attached fixture to the project comes from the CSV files; script that generates it doesn't produce primary keys in order - easy fix but it doesn't matter
 - I've switched off timezones, because example data doesn't contain information about it and it disables warnings about "naivness"
 - Return data has enough information to extract 'Experience' of the Testers, but I chose to hold the data in an unordered map - said operation can be always done on the front-end
