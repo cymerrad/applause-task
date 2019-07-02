@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.http import QueryDict, HttpRequest, JsonResponse
+from django.views.decorators.http import require_http_methods
+from django.views.decorators.csrf import csrf_exempt
 from django.db.models import QuerySet, Count
 from tester_matching.models import *
 from typing import List, Dict
@@ -120,21 +122,28 @@ def search_db_count_bugs(countries: List[str], devices: List[str]) -> QuerySet:
     return bug_count_q
 
 
+@require_http_methods(["POST"])
+@csrf_exempt
 def post_search_json(request: HttpRequest):
     '''
     Reads POST data, retrieves the search results, returns it in JSON format.
     On error sends a JSON explaining what went wrong.
     '''
+    data = []
+    for field in ["countries", "devices"]:
+        if field not in request.POST.keys():
+            return error_json(f"missing field: '{field}'")
+        arg_list = request.POST.getlist(field)
 
-    try:
-        countries = request.POST.getlist("countries")
-        devices = request.POST.getlist("devices")
-    except KeyError as e:
-        return error_json(f"missing field {e.args[0]}")
+        # query would return nothing either way for no inputs
+        if len(arg_list) is 0:
+            return JsonResponse({})
 
-    # further sanitization is not necessary, Django prevents SQL injections
+        data.append(arg_list)
 
-    bugs_query_set = search_db_count_bugs(countries, devices)
+    # further data sanitization is not necessary, Django prevents SQL injections
+
+    bugs_query_set = search_db_count_bugs(*data)
 
     formatted_data = parse_db_count_bugs(bugs_query_set)
 
