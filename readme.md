@@ -6,7 +6,7 @@ virtualenv env
 pip install -r requirements.txt
 
 cd the_platform
-./manage.py makemigrations
+./manage.py makemigrations tester_matching
 ./manage.py migrate
 ./manage.py loaddata tester_matching/fixtures/fixture.test.json
 
