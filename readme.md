@@ -1,9 +1,4 @@
-
-<p align="center">
-<a href="https://circleci.com/gh/cymerrad/applause-task/tree/master"><img alt="Build status" src="https://img.shields.io/circleci/project/github/cymerrad/applause-task/tree/master.svg" /></a>
-</p>
-
-# How to run the project
+# How to run the project [![CircleCI](https://circleci.com/gh/cymerrad/applause-task.svg?style=svg)](https://circleci.com/gh/cymerrad/applause-task)
 Python virtual env, frozen reqs, migrations
 ```shell
 virtualenv env
