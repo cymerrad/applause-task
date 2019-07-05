@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/applause-task
+    docker:
+      - image: circleci/python:3.6.4 # primary container for the build job
+    steps:
+      - checkout # checkout source code to working directory
+      - run:
+          command: | # use pipenv to install dependencies
+            sudo pip install -r requirements.txt
+      - run:
+          command: |
+            cd the_platform
+            ./manage.py makemigrations tester_matching
+            ./manage.py migrate
+            ./manage.py loaddata tester_matching/fixtures/fixture.test.json
+      - run: # tests
+          command: |
+            cd the_platform
+            ./manage.py test
+      - store_test_results: # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
+          path: test-results
